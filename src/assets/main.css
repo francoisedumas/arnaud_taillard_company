@@ -34,11 +34,38 @@ a {
   background-color: gainsboro;
   color:  var(--primary);
 }
-p {
-  line-height: 2em;
-}
 .container {
   max-width: 1100px;
   margin: 20px auto;
   padding: 10px;
+}
+
+/* Card style */
+.card-about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid rgb(235,235,235);
+}
+@media (max-width: 640px) {
+  .card-about {
+    flex-direction: column;
+  }
+}
+.highlight>span {
+  background-color:var(--light-gray);
+  line-height:2;
+}
+.vertically-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  flex: 1 1 0;
+}
+.overview {
+  margin: auto;
+  flex: 2 1 0;
 }
