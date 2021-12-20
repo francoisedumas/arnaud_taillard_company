@@ -36,6 +36,11 @@ export default {
   padding: 8px 16px;
   border: 1px solid rgb(235,235,235);
 }
+@media (max-width: 640px) {
+  .card-about {
+    flex-direction: column;
+  }
+}
 .img-circle {
   height: 80px;
   width: 80px;
