@@ -1,0 +1,44 @@
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+/* variables */
+:root {
+  --background: #FFFFFF;
+  --primary: #261B23;
+  --secondary: #ff8800;
+  --dark-orange: #ee8000;
+  --light-gray: #bbb;
+  --beige:rgb(224, 184, 172);
+  --red: #d23333;
+}
+
+/* base styles  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: var(--primary);
+}
+body {
+  background: var(--background);
+}
+#app {
+  font-size: 18px;
+  margin: 0;
+  color:  var(--primary);
+}
+a {
+  text-decoration: none;
+}
+.simple-link {
+  background-color: gainsboro;
+  color:  var(--primary);
+}
+p {
+  line-height: 2em;
+}
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 10px;
+}
