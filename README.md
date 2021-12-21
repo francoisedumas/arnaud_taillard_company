@@ -1,8 +1,13 @@
 # arnaud_taillard_company
+Simple personal website started with `vue create fdlab`
+
+# Netlify & Github
+The website is hosted with Netlify and is always up to date thanks to Continuous Deployment link to my Github repo
 
 ## Project setup
 ```
-npm install
+vue create fdlab
+npm install vue-router@next --save
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,6 +24,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

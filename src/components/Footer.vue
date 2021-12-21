@@ -1,8 +1,5 @@
 <template>
   <footer>
-    <a href="https://github.com/francoisedumas" alt="Github" target="_blank">
-      <i class="fab fa-github"></i>
-    </a>
     <a
       href="https://www.linkedin.com/in/arnaud-taillard/"
       alt="Linkedin"
@@ -10,7 +7,15 @@
     >
       <i class="fab fa-linkedin"></i>
     </a>
-    <p>Made with <i class="fas fa-heart"></i> in Nantes! by FDLab</p>
+    <div class="horizontally-aligned">
+      <p>Made with <i class="fas fa-heart"></i> in Nantes</p>
+      &nbsp;
+      <a
+        href="https://www.fdlab.me"
+        alt="Linkedin"
+        target="_blank"
+      >by FDLab</a>
+    </div>
   </footer>
 </template>
 
@@ -28,14 +33,18 @@ footer {
   padding: 10px;
   border-top: 1px dashed black;
 }
-footer a {
+footer .fab {
   color: black;
   font-size: 30px;
 }
 footer a:hover {
-  color: var(--primary);
+  color: var(--secondary);
 }
 .fa-heart {
   color: var(--red);
+}
+.horizontally-aligned {
+  display: flex;
+  justify-content: flex-start;
 }
 </style>
