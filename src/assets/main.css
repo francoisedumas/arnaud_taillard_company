@@ -5,10 +5,7 @@
 :root {
   --background: #FFFFFF;
   --primary: #261B23;
-  --secondary: #ff8800;
-  --dark-orange: #ee8000;
-  --light-gray: #bbb;
-  --beige:rgb(224, 184, 172);
+  --secondary: #bbb;
   --red: #d23333;
 }
 
@@ -54,7 +51,7 @@ a {
   }
 }
 .highlight>span {
-  background-color:var(--light-gray);
+  background-color:var(--secondary);
   line-height:2;
 }
 .vertically-centered {
