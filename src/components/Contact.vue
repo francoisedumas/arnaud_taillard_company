@@ -1,5 +1,5 @@
 <template>
-  <div class="container card-about">
+  <div class="container card">
       <div class="vertically-centered">
         <h2 class="highlight"><span>Contact</span></h2>
       </div>

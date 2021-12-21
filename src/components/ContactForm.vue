@@ -80,8 +80,6 @@ export default {
   max-width: 600px;
   margin: 10px auto;
 }
-
-/* forms */
 form {
   margin: 10px auto;
   max-width: auto;
@@ -92,7 +90,6 @@ input {
   max-width: 100%;
   margin-bottom: 20px;
   padding: 10px;
-  border: 1px solid rgb(235,235,235);
+  border: 1px solid var(--secondary);
 }
-
 </style>

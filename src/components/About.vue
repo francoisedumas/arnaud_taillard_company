@@ -1,5 +1,5 @@
 <template>
-  <div class="container card-about">
+  <div class="container card">
       <div class="vertically-centered">
         <img src="../assets/arnaud.jpeg" alt="Ma photo" class="img-circle" />
         <h1>Arnaud TAILLARD</h1>

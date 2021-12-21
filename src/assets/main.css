@@ -38,7 +38,7 @@ a {
 }
 
 /* Card style */
-.card-about {
+.card {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,12 +46,12 @@ a {
   border: 1px solid rgb(235,235,235);
 }
 @media (max-width: 640px) {
-  .card-about {
+  .card {
     flex-direction: column;
   }
 }
 .highlight>span {
-  background-color:var(--secondary);
+  background-color: var(--secondary);
   line-height:2;
 }
 .vertically-centered {
@@ -65,4 +65,20 @@ a {
 .overview {
   margin: auto;
   flex: 2 1 0;
+}
+
+/* buttons */
+button {
+  background: var(--primary);
+  border-radius: 3px;
+  border: none;
+	padding: .3em 1em;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin-top: 4px;
+  color: white;
+}
+button:hover {
+  background: var(--secondary);
 }

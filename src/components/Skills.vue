@@ -1,5 +1,5 @@
 <template>
-  <div class="container card-about">
+  <div class="container card">
     <div class="vertically-centered">
       <h2 class="highlight"><span>Compétences clés</span></h2>
     </div>
@@ -44,13 +44,12 @@ export default {
 	height: 28px;
 	line-height: 28px;
 	padding: .3em 1em;
-	background-color: #fff;
-	border: 1px solid #aaa;
+	background-color: var(--background);
+	border: 1px solid var(--secondary);
 	border-radius: 3px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	color: #333;
-	text-decoration: none;
+	color: var(--primary);
 }
 </style>
