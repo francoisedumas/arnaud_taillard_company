@@ -6,9 +6,9 @@
         <h2 class="highlight"><span>Consultant indépendant</span></h2>
       </div>
       <div class="overview">
-        Professionnel du milieu industriel de biens et de services, j'apporte mon aide et mon soutien à vos projets d'organisation ou de transition.
-        Expert en gestion de Process, d'Organisation et d'Optimisation auprès des TPE, PME/PMI.
-        Avec une connaissance étendue des différents rouages d'une entreprise (Production Maintenance, Qualité, RH,...), mes interventions peuvent être transverses au sein de vos organisations.
+        Expert en gestion de Process, d'Organisation et d'Optimisation auprès des TPE, PME/PMI, j'apporte mon aide et mon soutien à vos projets.<br>
+        Avec une connaissance étendue des différents rouages d'une entreprise (Production Maintenance, Qualité, RH,...), mes interventions peuvent être transverses au sein de vos organisations.<br>
+        Mobile et disponible, je reste à votre écoute.
       </div>
   </div>
 </template>

@@ -8,9 +8,9 @@
         <ul>
           <li>Conseil</li>
           <li>Audit</li>
-          <li>Aide à la restructuration</li>
-          <li>Aide au développement</li>
-          <li>Pilotage de transitions</li>
+          <li>Restructuration</li>
+          <li>Développement</li>
+          <li>Transition</li>
           <li>Analyses d'équipes</li>
           <li>Aide à la certification (RABC)</li>
           <li>Coaching d'encadrant</li>
